@@ -4,10 +4,11 @@ output: github_document
 
 <!-- Render README.Rmd. Then open README.md and use VS Code (Markdown All in One) to create/update TOC. -->
 
-```{r, include = FALSE}
+```{r, include=FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
-  comment = "#>"
+  comment = "#>",
+  echo = FALSE
 )
 ```
 
@@ -24,7 +25,7 @@ for seamless command-line access.
 Some of the paths below are specific to the installed software version.
 We use these software version examples:
 
-```{r, echo=FALSE}
+```{r}
 r_version <- "4.4.1"
 rtools_version <- "44"
 rstudio_version_major <- "2024.04.2"
