@@ -1,8 +1,11 @@
+
+<!-- Render README.Rmd. Then open README.md and use VS Code (Markdown All in One) to create/update TOC. -->
+
 # r-windows-paths
 
-Essential R command-line tool paths on Windows.
-This information can help setting up the `PATH` environment variable
-for seamless command-line access.
+Essential R command-line tool paths on Windows. This information can
+help setting up the `PATH` environment variable for seamless
+command-line access.
 
 ## Contents
 
@@ -20,6 +23,7 @@ for seamless command-line access.
 Some of the paths below are specific to the installed software version.
 We use these software version examples:
 
+- R 4.4.1
 - Rtools44
 - RStudio Desktop 2024.04.2+764
 
@@ -29,15 +33,15 @@ We use these software version examples:
 
 `R.exe` and `Rscript.exe`.
 
-R release version x.y.z:
+R release version 4.4.1:
 
-```powershell
-C:\Program Files\R\R-x.y.z\bin
+``` powershell
+C:\Program Files\R\R-4.4.1\bin
 ```
 
 R-devel:
 
-```powershell
+``` powershell
 C:\Program Files\R\R-devel\bin
 ```
 
@@ -47,13 +51,13 @@ C/C++/Fortran toolchain for building R and R packages from source.
 
 Contains `gcc`, `g++`, `gfortran`:
 
-```powershell
+``` powershell
 C:\rtools44\x86_64-w64-mingw32.static.posix\bin
 ```
 
 Contains Texinfo (`texi2dvi`, `texi2pdf`) required by `R CMD check`:
 
-```powershell
+``` powershell
 C:\rtools44\usr\bin
 ```
 
@@ -61,28 +65,28 @@ C:\rtools44\usr\bin
 
 pandoc installed via `choco install pandoc`:
 
-```powershell
+``` powershell
 C:\Users\%USERNAME%\AppData\Local\Pandoc
 ```
 
 pandoc distributed with RStudio Desktop:
 
-```powershell
+``` powershell
 C:\Users\%USERNAME%\RStudio-2024.04.2-764\resources\app\bin\quarto\bin\tools
 ```
 
 pandoc distributed with Quarto standalone installer:
 
-```powershell
+``` powershell
 C:\Users\%USERNAME%\AppData\Local\Programs\Quarto\bin\tools
 ```
 
 ### TinyTeX
 
-TeX distribution binaries for LaTeX support.
-Contains `pdflatex` required by `R CMD check`.
+TeX distribution binaries for LaTeX support. Contains `pdflatex`
+required by `R CMD check`.
 
-```powershell
+``` powershell
 C:\Users\%USERNAME%\AppData\Roaming\TinyTeX\bin\windows
 ```
 
@@ -90,13 +94,13 @@ C:\Users\%USERNAME%\AppData\Roaming\TinyTeX\bin\windows
 
 Quarto distributed with RStudio Desktop:
 
-```powershell
+``` powershell
 C:\Users\%USERNAME%\RStudio-2024.04.2-764\resources\app\bin\quarto\bin
 ```
 
 Quarto distributed via Quarto standalone installer:
 
-```powershell
+``` powershell
 C:\Users\%USERNAME%\AppData\Local\Programs\Quarto\bin
 ```
 
@@ -104,6 +108,6 @@ C:\Users\%USERNAME%\AppData\Local\Programs\Quarto\bin
 
 <!-- TODO: Add screenshots -->
 
-1. Locate the paths on your system.
-2. Add the relevant paths to your system's `PATH` environment variable.
-3. Verify the setup by running the commands in command prompt.
+1.  Locate the paths on your system.
+2.  Add the relevant paths to your system’s `PATH` environment variable.
+3.  Verify the setup by running the commands in command prompt.
