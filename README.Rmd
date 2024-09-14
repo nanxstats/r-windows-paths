@@ -26,10 +26,47 @@ Some of the paths below are specific to the installed software version.
 We use these software version examples:
 
 ```{r}
-r_version <- "4.4.1"
-rtools_version <- "44"
-rstudio_version_major <- "2024.04.2"
-rstudio_version_minor <- "764"
+str_extract_first <- function(x, pattern) {
+  m <- regexec(pattern, text = x, perl = TRUE)
+  regmatches(x, m = m)[[1]][2]
+}
+
+get_r_version <- function() {
+  "http://cran.r-project.org/src/base/VERSION-INFO.dcf" |>
+    url() |>
+    read.dcf() |>
+    as.data.frame() |>
+    getElement(name = "Release")
+}
+
+get_rtools_version <- function() {
+  version_string <- "https://raw.githubusercontent.com/r-windows/rtools-chocolatey/master/src/rtools.nuspec" |>
+    curl::curl_fetch_memory() |>
+    getElement(name = "content") |>
+    rawToChar() |>
+    str_extract_first(pattern = "<version>(.*?)</version>")
+
+  parts <- strsplit(version_string, "\\.")[[1]]
+  paste0(parts[1], parts[2])
+}
+
+get_rstudio_version <- function() {
+  version_string <- "http://download1.rstudio.org/current.ver" |>
+    curl::curl_fetch_memory() |>
+    getElement(name = "content") |>
+    rawToChar()
+
+  parts <- strsplit(trimws(version_string), "\\+")[[1]]
+  major <- parts[1]
+  minor <- strsplit(parts[2], "\\.")[[1]][1]
+  list(major = major, minor = minor)
+}
+
+r_version <- get_r_version()
+rtools_version <- get_rtools_version()
+rstudio_version <- get_rstudio_version()
+rstudio_version_major <- rstudio_version$major
+rstudio_version_minor <- rstudio_version$minor
 ```
 
 - R `r r_version`
