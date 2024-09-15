@@ -26,13 +26,13 @@
 
 1. Open a new Command Prompt window.
 
-1. Run the following commands to test each added path:
+1. Run the following commands to test each added path.
+   For example:
 
-```powershell
+```batchfile
 R --version
 Rscript --version
 gcc --version
-texi2dvi --version
 pandoc --version
 pdflatex --version
 quarto --version
