@@ -26,8 +26,7 @@
 
 - Open a new Command Prompt window.
 
-- Run the following commands to test each added path.
-   For example:
+- Run commands to test each added path. For example:
 
   ```batchfile
   R --version
