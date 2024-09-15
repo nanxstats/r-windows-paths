@@ -16,7 +16,7 @@ command-line access.
   - [Pandoc](#pandoc)
   - [TinyTeX](#tinytex)
   - [Quarto](#quarto)
-- [How to use](#how-to-use)
+- [Configure and verify](#configure-and-verify)
 
 ## Example versions
 
@@ -104,10 +104,15 @@ Quarto distributed via Quarto standalone installer:
 C:\Users\%USERNAME%\AppData\Local\Programs\Quarto\bin
 ```
 
-## How to use
-
-<!-- TODO: Add screenshots -->
+## Configure and verify
 
 1.  Locate the paths on your system.
-2.  Add the relevant paths to your system’s `PATH` environment variable.
-3.  Verify the setup by running the commands in command prompt.
+    - Open File Explorer and navigate to the directories listed above.
+    - Verify that the paths exist and contain the expected executables.
+2.  Add relevant paths to your system’s `PATH` environment variable and
+    verify the setup.
+    - For a step-by-step guide with screenshots, see [how to set the
+      `PATH` environment variable in Windows](path.md).
+
+Now you should be able to use R and its associated tools from the CLI
+without specifying full paths.
