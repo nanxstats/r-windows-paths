@@ -138,6 +138,12 @@ C:\Users\%USERNAME%\AppData\Roaming\TinyTeX\bin\windows
 
 ### Quarto
 
+Quarto installed via `choco install quarto`:
+
+```batchfile
+C:\ProgramData\chocolatey\lib\quarto\tools\bin
+```
+
 Quarto distributed with RStudio Desktop:
 
 ```batchfile
