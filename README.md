@@ -35,13 +35,13 @@ We use these software version examples:
 
 R release version 4.4.1:
 
-``` powershell
+``` batchfile
 C:\Program Files\R\R-4.4.1\bin
 ```
 
 R-devel:
 
-``` powershell
+``` batchfile
 C:\Program Files\R\R-devel\bin
 ```
 
@@ -51,13 +51,13 @@ C/C++/Fortran toolchain for building R and R packages from source.
 
 Contains `gcc`, `g++`, `gfortran`:
 
-``` powershell
+``` batchfile
 C:\rtools44\x86_64-w64-mingw32.static.posix\bin
 ```
 
 Contains Texinfo (`texi2dvi`, `texi2pdf`) required by `R CMD check`:
 
-``` powershell
+``` batchfile
 C:\rtools44\usr\bin
 ```
 
@@ -65,19 +65,19 @@ C:\rtools44\usr\bin
 
 pandoc installed via `choco install pandoc`:
 
-``` powershell
+``` batchfile
 C:\Users\%USERNAME%\AppData\Local\Pandoc
 ```
 
 pandoc distributed with RStudio Desktop:
 
-``` powershell
+``` batchfile
 C:\Users\%USERNAME%\RStudio-2024.04.2-764\resources\app\bin\quarto\bin\tools
 ```
 
 pandoc distributed with Quarto standalone installer:
 
-``` powershell
+``` batchfile
 C:\Users\%USERNAME%\AppData\Local\Programs\Quarto\bin\tools
 ```
 
@@ -86,7 +86,7 @@ C:\Users\%USERNAME%\AppData\Local\Programs\Quarto\bin\tools
 TeX distribution binaries for LaTeX support. Contains `pdflatex`
 required by `R CMD check`.
 
-``` powershell
+``` batchfile
 C:\Users\%USERNAME%\AppData\Roaming\TinyTeX\bin\windows
 ```
 
@@ -94,13 +94,13 @@ C:\Users\%USERNAME%\AppData\Roaming\TinyTeX\bin\windows
 
 Quarto distributed with RStudio Desktop:
 
-``` powershell
+``` batchfile
 C:\Users\%USERNAME%\RStudio-2024.04.2-764\resources\app\bin\quarto\bin
 ```
 
 Quarto distributed via Quarto standalone installer:
 
-``` powershell
+``` batchfile
 C:\Users\%USERNAME%\AppData\Local\Programs\Quarto\bin
 ```
 

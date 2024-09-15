@@ -81,13 +81,13 @@ rstudio_version_minor <- rstudio_version$minor
 
 R release version `r r_version`:
 
-```powershell
+```batchfile
 C:\Program Files\R\R-`r r_version`\bin
 ```
 
 R-devel:
 
-```powershell
+```batchfile
 C:\Program Files\R\R-devel\bin
 ```
 
@@ -97,13 +97,13 @@ C/C++/Fortran toolchain for building R and R packages from source.
 
 Contains `gcc`, `g++`, `gfortran`:
 
-```powershell
+```batchfile
 C:\rtools`r rtools_version`\x86_64-w64-mingw32.static.posix\bin
 ```
 
 Contains Texinfo (`texi2dvi`, `texi2pdf`) required by `R CMD check`:
 
-```powershell
+```batchfile
 C:\rtools`r rtools_version`\usr\bin
 ```
 
@@ -111,19 +111,19 @@ C:\rtools`r rtools_version`\usr\bin
 
 pandoc installed via `choco install pandoc`:
 
-```powershell
+```batchfile
 C:\Users\%USERNAME%\AppData\Local\Pandoc
 ```
 
 pandoc distributed with RStudio Desktop:
 
-```powershell
+```batchfile
 C:\Users\%USERNAME%\RStudio-`r sprintf("%s-%s", rstudio_version_major, rstudio_version_minor)`\resources\app\bin\quarto\bin\tools
 ```
 
 pandoc distributed with Quarto standalone installer:
 
-```powershell
+```batchfile
 C:\Users\%USERNAME%\AppData\Local\Programs\Quarto\bin\tools
 ```
 
@@ -132,7 +132,7 @@ C:\Users\%USERNAME%\AppData\Local\Programs\Quarto\bin\tools
 TeX distribution binaries for LaTeX support.
 Contains `pdflatex` required by `R CMD check`.
 
-```powershell
+```batchfile
 C:\Users\%USERNAME%\AppData\Roaming\TinyTeX\bin\windows
 ```
 
@@ -140,13 +140,13 @@ C:\Users\%USERNAME%\AppData\Roaming\TinyTeX\bin\windows
 
 Quarto distributed with RStudio Desktop:
 
-```powershell
+```batchfile
 C:\Users\%USERNAME%\RStudio-`r sprintf("%s-%s", rstudio_version_major, rstudio_version_minor)`\resources\app\bin\quarto\bin
 ```
 
 Quarto distributed via Quarto standalone installer:
 
-```powershell
+```batchfile
 C:\Users\%USERNAME%\AppData\Local\Programs\Quarto\bin
 ```
 
