@@ -75,7 +75,14 @@ pandoc distributed with RStudio Desktop:
 C:\Users\%USERNAME%\RStudio-2024.04.2-764\resources\app\bin\quarto\bin\tools
 ```
 
-pandoc distributed with Quarto standalone installer:
+pandoc distributed with Quarto installed via `choco install quarto`:
+
+``` batchfile
+C:\ProgramData\chocolatey\lib\quarto\tools\bin\tools
+```
+
+pandoc distributed with Quarto installed via Quarto standalone
+installer:
 
 ``` batchfile
 C:\Users\%USERNAME%\AppData\Local\Programs\Quarto\bin\tools
@@ -98,16 +105,16 @@ Quarto installed via `choco install quarto`:
 C:\ProgramData\chocolatey\lib\quarto\tools\bin
 ```
 
+Quarto installed via Quarto standalone installer:
+
+``` batchfile
+C:\Users\%USERNAME%\AppData\Local\Programs\Quarto\bin
+```
+
 Quarto distributed with RStudio Desktop:
 
 ``` batchfile
 C:\Users\%USERNAME%\RStudio-2024.04.2-764\resources\app\bin\quarto\bin
-```
-
-Quarto distributed via Quarto standalone installer:
-
-``` batchfile
-C:\Users\%USERNAME%\AppData\Local\Programs\Quarto\bin
 ```
 
 ## Configure and verify
