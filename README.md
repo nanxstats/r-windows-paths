@@ -63,7 +63,7 @@ C:\rtools44\usr\bin
 
 ### Pandoc
 
-pandoc installed via `choco install pandoc`:
+pandoc installed via `choco install pandoc` or standalone installer:
 
 ``` batchfile
 C:\Users\%USERNAME%\AppData\Local\Pandoc
