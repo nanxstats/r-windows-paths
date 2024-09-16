@@ -31,7 +31,7 @@ We use these software version examples:
 
 ### R
 
-`R.exe` and `Rscript.exe`.
+`R.exe` and `Rscript.exe` for running `R CMD build` and `R CMD check`.
 
 R release version 4.4.1:
 

@@ -77,7 +77,7 @@ rstudio_version_minor <- rstudio_version$minor
 
 ### R
 
-`R.exe` and `Rscript.exe`.
+`R.exe` and `Rscript.exe` for running `R CMD build` and `R CMD check`.
 
 R release version `r r_version`:
 
