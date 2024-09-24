@@ -14,6 +14,7 @@ command-line access.
   - [R](#r)
   - [Rtools](#rtools)
   - [TinyTeX](#tinytex)
+  - [MiKTeX](#miktex)
   - [Pandoc](#pandoc)
   - [Quarto](#quarto)
 - [Configure and verify](#configure-and-verify)
@@ -65,10 +66,28 @@ C:\rtools44\usr\bin
 ### TinyTeX
 
 TeX distribution binaries for LaTeX support. Contains `pdflatex`
-required by `R CMD check`.
+required by `R CMD check` and for building R from source.
 
 ``` batchfile
 C:\Users\%USERNAME%\AppData\Roaming\TinyTeX\bin\windows
+```
+
+### MiKTeX
+
+TeX distribution binaries for LaTeX support. Contains `pdflatex`
+required by `R CMD check` and for building R from source.
+
+MiKTeX installed via `choco install miktex` or standalone installer (all
+users):
+
+``` batchfile
+C:\Program Files\MiKTeX\miktex\bin\x64
+```
+
+MiKTeX installed via standalone installer (current user):
+
+``` batchfile
+C:\Users\%USERNAME%\AppData\Local\Programs\MiKTeX\miktex\bin\x64
 ```
 
 ### Pandoc
