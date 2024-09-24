@@ -55,7 +55,8 @@ Contains `gcc`, `g++`, `gfortran`:
 C:\rtools44\x86_64-w64-mingw32.static.posix\bin
 ```
 
-Contains Texinfo (`texi2dvi`, `texi2pdf`) required by `R CMD check`:
+Contains Texinfo (`texi2dvi`, `texi2pdf`) required by `R CMD check`, and
+GNU Make (`make`) required for building R from source:
 
 ``` batchfile
 C:\rtools44\usr\bin
