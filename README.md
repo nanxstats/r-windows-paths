@@ -17,6 +17,7 @@ command-line access.
   - [MiKTeX](#miktex)
   - [Pandoc](#pandoc)
   - [Quarto](#quarto)
+  - [Git](#git)
 - [Configure and verify](#configure-and-verify)
 
 ## Example versions
@@ -151,6 +152,16 @@ Quarto distributed with RStudio Desktop (zip):
 
 ``` batchfile
 C:\Users\%USERNAME%\RStudio-2024.09.0-375\resources\app\bin\quarto\bin
+```
+
+### Git
+
+For interacting with Git repositories.
+
+Git installed via `choco install git`:
+
+``` batchfile
+C:\Program Files\Git\cmd
 ```
 
 ## Configure and verify

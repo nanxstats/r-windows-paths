@@ -194,6 +194,16 @@ Quarto distributed with RStudio Desktop (zip):
 C:\Users\%USERNAME%\RStudio-`r sprintf("%s-%s", rstudio_version_major, rstudio_version_minor)`\resources\app\bin\quarto\bin
 ```
 
+### Git
+
+For interacting with Git repositories.
+
+Git installed via `choco install git`:
+
+```batchfile
+C:\Program Files\Git\cmd
+```
+
 ## Configure and verify
 
 1. Locate the paths on your system.
