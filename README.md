@@ -13,8 +13,8 @@ command-line access.
 - [Key paths](#key-paths)
   - [R](#r)
   - [Rtools](#rtools)
-  - [Pandoc](#pandoc)
   - [TinyTeX](#tinytex)
+  - [Pandoc](#pandoc)
   - [Quarto](#quarto)
 - [Configure and verify](#configure-and-verify)
 
@@ -61,6 +61,15 @@ Contains Texinfo (`texi2dvi`, `texi2pdf`) required by `R CMD check`:
 C:\rtools44\usr\bin
 ```
 
+### TinyTeX
+
+TeX distribution binaries for LaTeX support. Contains `pdflatex`
+required by `R CMD check`.
+
+``` batchfile
+C:\Users\%USERNAME%\AppData\Roaming\TinyTeX\bin\windows
+```
+
 ### Pandoc
 
 pandoc installed via `choco install pandoc` or standalone installer:
@@ -92,15 +101,6 @@ installer:
 
 ``` batchfile
 C:\Users\%USERNAME%\AppData\Local\Programs\Quarto\bin\tools
-```
-
-### TinyTeX
-
-TeX distribution binaries for LaTeX support. Contains `pdflatex`
-required by `R CMD check`.
-
-``` batchfile
-C:\Users\%USERNAME%\AppData\Roaming\TinyTeX\bin\windows
 ```
 
 ### Quarto
