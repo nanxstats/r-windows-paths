@@ -25,7 +25,7 @@ We use these software version examples:
 
 - R 4.4.1
 - Rtools44
-- RStudio Desktop 2024.04.2+764
+- RStudio Desktop 2024.09.0+375
 
 ## Key paths
 
@@ -69,10 +69,16 @@ pandoc installed via `choco install pandoc` or standalone installer:
 C:\Users\%USERNAME%\AppData\Local\Pandoc
 ```
 
-pandoc distributed with RStudio Desktop:
+pandoc distributed with RStudio Desktop (installer):
 
 ``` batchfile
-C:\Users\%USERNAME%\RStudio-2024.04.2-764\resources\app\bin\quarto\bin\tools
+C:\Program Files\RStudio\resources\app\bin\quarto\bin\tools
+```
+
+pandoc distributed with RStudio Desktop (zip):
+
+``` batchfile
+C:\Users\%USERNAME%\RStudio-2024.09.0-375\resources\app\bin\quarto\bin\tools
 ```
 
 pandoc distributed with Quarto installed via `choco install quarto`:
@@ -111,10 +117,16 @@ Quarto installed via Quarto standalone installer:
 C:\Users\%USERNAME%\AppData\Local\Programs\Quarto\bin
 ```
 
-Quarto distributed with RStudio Desktop:
+Quarto distributed with RStudio Desktop (installer):
 
 ``` batchfile
-C:\Users\%USERNAME%\RStudio-2024.04.2-764\resources\app\bin\quarto\bin
+C:\Program Files\RStudio\resources\app\bin\quarto\bin
+```
+
+Quarto distributed with RStudio Desktop (zip):
+
+``` batchfile
+C:\Users\%USERNAME%\RStudio-2024.09.0-375\resources\app\bin\quarto\bin
 ```
 
 ## Configure and verify

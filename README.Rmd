@@ -115,7 +115,13 @@ pandoc installed via `choco install pandoc` or standalone installer:
 C:\Users\%USERNAME%\AppData\Local\Pandoc
 ```
 
-pandoc distributed with RStudio Desktop:
+pandoc distributed with RStudio Desktop (installer):
+
+```batchfile
+C:\Program Files\RStudio\resources\app\bin\quarto\bin\tools
+```
+
+pandoc distributed with RStudio Desktop (zip):
 
 ```batchfile
 C:\Users\%USERNAME%\RStudio-`r sprintf("%s-%s", rstudio_version_major, rstudio_version_minor)`\resources\app\bin\quarto\bin\tools
@@ -156,7 +162,13 @@ Quarto installed via Quarto standalone installer:
 C:\Users\%USERNAME%\AppData\Local\Programs\Quarto\bin
 ```
 
-Quarto distributed with RStudio Desktop:
+Quarto distributed with RStudio Desktop (installer):
+
+```batchfile
+C:\Program Files\RStudio\resources\app\bin\quarto\bin
+```
+
+Quarto distributed with RStudio Desktop (zip):
 
 ```batchfile
 C:\Users\%USERNAME%\RStudio-`r sprintf("%s-%s", rstudio_version_major, rstudio_version_minor)`\resources\app\bin\quarto\bin
