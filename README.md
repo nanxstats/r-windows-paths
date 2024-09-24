@@ -65,8 +65,10 @@ C:\rtools44\usr\bin
 
 ### TinyTeX
 
-TeX distribution binaries for LaTeX support. Contains `pdflatex`
-required by `R CMD check` and for building R from source.
+TeX distribution binaries for LaTeX support.
+
+Contains `pdflatex` required by `R CMD check` and for building R from
+source.
 
 ``` batchfile
 C:\Users\%USERNAME%\AppData\Roaming\TinyTeX\bin\windows
@@ -74,8 +76,10 @@ C:\Users\%USERNAME%\AppData\Roaming\TinyTeX\bin\windows
 
 ### MiKTeX
 
-TeX distribution binaries for LaTeX support. Contains `pdflatex`
-required by `R CMD check` and for building R from source.
+TeX distribution binaries for LaTeX support.
+
+Contains `pdflatex` required by `R CMD check` and for building R from
+source.
 
 MiKTeX installed via `choco install miktex` or standalone installer (all
 users):
