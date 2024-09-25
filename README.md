@@ -9,17 +9,20 @@ command-line access.
 
 <p align="center">
 
-[**Example versions**](#example-versions) · [**Configure and
-verify**](#configure-and-verify)
-
+<a href="#example-versions"><strong>Example versions</strong></a> ·
+<a href="#configure-and-verify"><strong>Configure and
+verify</strong></a>
 </p>
 
 <p align="center">
 
-[**R**](#r) · [**Rtools**](#rtools) · [**TinyTeX**](#tinytex) ·
-[**MiKTeX**](#miktex) · [**Pandoc**](#pandoc) · [**Quarto**](#quarto) ·
-[**Git**](#git)
-
+<a href="#r"><strong>R</strong></a> ·
+<a href="#rtools"><strong>Rtools</strong></a> ·
+<a href="#tinytex"><strong>TinyTeX</strong></a> ·
+<a href="#miktex"><strong>MiKTeX</strong></a> ·
+<a href="#pandoc"><strong>Pandoc</strong></a> ·
+<a href="#quarto"><strong>Quarto</strong></a> ·
+<a href="#git"><strong>Git</strong></a>
 </p>
 
 ## Example versions
