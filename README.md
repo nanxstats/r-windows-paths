@@ -3,9 +3,8 @@
 
 # r-windows-paths
 
-Essential R command-line tool paths on Windows. This information can
-help setting up the `PATH` environment variable for seamless
-command-line access.
+<a href="https://nanx.me/blog/post/r-windows-paths/">
+<img src="images/banner.png" alt="r-windows-paths"> </a>
 
 <p align="center">
 
@@ -24,6 +23,10 @@ verify</strong></a>
 <a href="#quarto"><strong>Quarto</strong></a> ·
 <a href="#git"><strong>Git</strong></a>
 </p>
+
+Essential R command-line tool paths on Windows. This information can
+help setting up the `PATH` environment variable for seamless
+command-line access.
 
 ## Example versions
 
