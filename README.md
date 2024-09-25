@@ -1,5 +1,5 @@
 
-<!-- Render README.Rmd. Then open README.md and use VS Code (Markdown All in One) to create/update TOC. -->
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # r-windows-paths
 
@@ -7,18 +7,20 @@ Essential R command-line tool paths on Windows. This information can
 help setting up the `PATH` environment variable for seamless
 command-line access.
 
-## Contents
+<p align="center">
 
-- [Example versions](#example-versions)
-- [Key paths](#key-paths)
-  - [R](#r)
-  - [Rtools](#rtools)
-  - [TinyTeX](#tinytex)
-  - [MiKTeX](#miktex)
-  - [Pandoc](#pandoc)
-  - [Quarto](#quarto)
-  - [Git](#git)
-- [Configure and verify](#configure-and-verify)
+[**Example versions**](#example-versions) · [**Configure and
+verify**](#configure-and-verify)
+
+</p>
+
+<p align="center">
+
+[**R**](#r) · [**Rtools**](#rtools) · [**TinyTeX**](#tinytex) ·
+[**MiKTeX**](#miktex) · [**Pandoc**](#pandoc) · [**Quarto**](#quarto) ·
+[**Git**](#git)
+
+</p>
 
 ## Example versions
 
