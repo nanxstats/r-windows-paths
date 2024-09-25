@@ -1,5 +1,27 @@
 ---
 output: github_document
+# To center the elements correctly on GitHub, we need to post-process
+# <p></p> blocks to remove blank lines after <p> and add two leading spaces
+# before each <a> tag.
+knit: |
+  (function(inputFile, encoding) {
+    rmarkdown::render(input = inputFile, encoding = encoding)
+    output <- paste0(basename(tools::file_path_sans_ext(inputFile)), ".md")
+    content <- paste0(readLines(output), collapse = "\n")
+
+    matches <- gregexpr("(?s)<p[^>]*>.*?</p>", content, perl = TRUE)
+    match_texts <- regmatches(content, matches)[[1]]
+    process_p_block <- function(block) {
+      block <- gsub("(<p[^>]*>)[ \\t]*\\n([ \\t]*\\n)*", "\\\\1\n", block)
+      block <- gsub("(<a[^>]*>)", "  \\\\1", block)
+      block
+    }
+    modified_texts <- vapply(match_texts, process_p_block, character(1))
+    regmatches(content, matches)[[1]] <- modified_texts
+
+    writeLines(content, con = output)
+    invisible(output)
+  })
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->

@@ -7,21 +7,19 @@
 <img src="images/banner.png" alt="r-windows-paths"> </a>
 
 <p align="center">
-
-<a href="#example-versions"><strong>Example versions</strong></a> ·
-<a href="#configure-and-verify"><strong>Configure and
+  <a href="#example-versions"><strong>Example versions</strong></a> ·
+  <a href="#configure-and-verify"><strong>Configure and
 verify</strong></a>
 </p>
 
 <p align="center">
-
-<a href="#r"><strong>R</strong></a> ·
-<a href="#rtools"><strong>Rtools</strong></a> ·
-<a href="#tinytex"><strong>TinyTeX</strong></a> ·
-<a href="#miktex"><strong>MiKTeX</strong></a> ·
-<a href="#pandoc"><strong>Pandoc</strong></a> ·
-<a href="#quarto"><strong>Quarto</strong></a> ·
-<a href="#git"><strong>Git</strong></a>
+  <a href="#r"><strong>R</strong></a> ·
+  <a href="#rtools"><strong>Rtools</strong></a> ·
+  <a href="#tinytex"><strong>TinyTeX</strong></a> ·
+  <a href="#miktex"><strong>MiKTeX</strong></a> ·
+  <a href="#pandoc"><strong>Pandoc</strong></a> ·
+  <a href="#quarto"><strong>Quarto</strong></a> ·
+  <a href="#git"><strong>Git</strong></a>
 </p>
 
 Essential R command-line tool paths on Windows. This information can
