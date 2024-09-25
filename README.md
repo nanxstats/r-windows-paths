@@ -158,7 +158,8 @@ C:\Users\%USERNAME%\RStudio-2024.09.0-375\resources\app\bin\quarto\bin
 
 For interacting with Git repositories.
 
-Git installed via `choco install git`:
+Git for Windows installed via `choco install git` or standalone
+installer:
 
 ``` batchfile
 C:\Program Files\Git\cmd

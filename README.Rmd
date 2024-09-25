@@ -198,7 +198,7 @@ C:\Users\%USERNAME%\RStudio-`r sprintf("%s-%s", rstudio_version_major, rstudio_v
 
 For interacting with Git repositories.
 
-Git installed via `choco install git`:
+Git for Windows installed via `choco install git` or standalone installer:
 
 ```batchfile
 C:\Program Files\Git\cmd
