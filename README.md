@@ -31,7 +31,7 @@ command-line access.
 Some of the paths below are specific to the installed software version.
 We use these software version examples:
 
-- R 4.4.1
+- R 4.4.2
 - Rtools44
 - RStudio Desktop 2024.09.0+375
 
@@ -41,10 +41,10 @@ We use these software version examples:
 
 `R.exe` and `Rscript.exe` for running `R CMD build` and `R CMD check`.
 
-R release version 4.4.1:
+R release version 4.4.2:
 
 ``` batchfile
-C:\Program Files\R\R-4.4.1\bin
+C:\Program Files\R\R-4.4.2\bin
 ```
 
 R-devel:
