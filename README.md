@@ -33,7 +33,7 @@ We use these software version examples:
 
 - R 4.4.2
 - Rtools44
-- RStudio Desktop 2024.09.1+394
+- RStudio Desktop 2024.12.0+467
 
 ## Key paths
 
@@ -118,7 +118,7 @@ C:\Program Files\RStudio\resources\app\bin\quarto\bin\tools
 pandoc distributed with RStudio Desktop (zip):
 
 ``` batchfile
-C:\Users\%USERNAME%\RStudio-2024.09.1-394\resources\app\bin\quarto\bin\tools
+C:\Users\%USERNAME%\RStudio-2024.12.0-467\resources\app\bin\quarto\bin\tools
 ```
 
 pandoc distributed with Quarto installed via `choco install quarto`:
@@ -157,7 +157,7 @@ C:\Program Files\RStudio\resources\app\bin\quarto\bin
 Quarto distributed with RStudio Desktop (zip):
 
 ``` batchfile
-C:\Users\%USERNAME%\RStudio-2024.09.1-394\resources\app\bin\quarto\bin
+C:\Users\%USERNAME%\RStudio-2024.12.0-467\resources\app\bin\quarto\bin
 ```
 
 ### Git
