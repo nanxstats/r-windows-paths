@@ -31,9 +31,9 @@ command-line access.
 Some of the paths below are specific to the installed software version.
 We use these software version examples:
 
-- R 4.4.3
-- Rtools44
-- RStudio Desktop 2024.12.1+563
+- R 4.5.0
+- Rtools45
+- RStudio Desktop 2025.05.0+496
 
 ## Key paths
 
@@ -41,10 +41,10 @@ We use these software version examples:
 
 `R.exe` and `Rscript.exe` for running `R CMD build` and `R CMD check`.
 
-R release version 4.4.3:
+R release version 4.5.0:
 
 ``` batchfile
-C:\Program Files\R\R-4.4.3\bin
+C:\Program Files\R\R-4.5.0\bin
 ```
 
 R-devel:
@@ -60,14 +60,14 @@ C/C++/Fortran toolchain for building R and R packages from source.
 Contains `gcc`, `g++`, `gfortran`:
 
 ``` batchfile
-C:\rtools44\x86_64-w64-mingw32.static.posix\bin
+C:\rtools45\x86_64-w64-mingw32.static.posix\bin
 ```
 
 Contains Texinfo (`texi2dvi`, `texi2pdf`) required by `R CMD check`, and
 GNU Make (`make`) required for building R from source:
 
 ``` batchfile
-C:\rtools44\usr\bin
+C:\rtools45\usr\bin
 ```
 
 ### TinyTeX
@@ -118,7 +118,7 @@ C:\Program Files\RStudio\resources\app\bin\quarto\bin\tools
 pandoc distributed with RStudio Desktop (zip):
 
 ``` batchfile
-C:\Users\%USERNAME%\RStudio-2024.12.1-563\resources\app\bin\quarto\bin\tools
+C:\Users\%USERNAME%\RStudio-2025.05.0-496\resources\app\bin\quarto\bin\tools
 ```
 
 pandoc distributed with Quarto installed via `choco install quarto`:
@@ -157,7 +157,7 @@ C:\Program Files\RStudio\resources\app\bin\quarto\bin
 Quarto distributed with RStudio Desktop (zip):
 
 ``` batchfile
-C:\Users\%USERNAME%\RStudio-2024.12.1-563\resources\app\bin\quarto\bin
+C:\Users\%USERNAME%\RStudio-2025.05.0-496\resources\app\bin\quarto\bin
 ```
 
 ### Git
