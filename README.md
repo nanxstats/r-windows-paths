@@ -31,9 +31,9 @@ command-line access.
 Some of the paths below are specific to the installed software version.
 We use these software version examples:
 
-- R 4.5.0
+- R 4.5.1
 - Rtools45
-- RStudio Desktop 2025.05.0+496
+- RStudio Desktop 2025.05.1+513
 
 ## Key paths
 
@@ -41,10 +41,10 @@ We use these software version examples:
 
 `R.exe` and `Rscript.exe` for running `R CMD build` and `R CMD check`.
 
-R release version 4.5.0:
+R release version 4.5.1:
 
 ``` batchfile
-C:\Program Files\R\R-4.5.0\bin
+C:\Program Files\R\R-4.5.1\bin
 ```
 
 R-devel:
@@ -118,7 +118,7 @@ C:\Program Files\RStudio\resources\app\bin\quarto\bin\tools
 pandoc distributed with RStudio Desktop (zip):
 
 ``` batchfile
-C:\Users\%USERNAME%\RStudio-2025.05.0-496\resources\app\bin\quarto\bin\tools
+C:\Users\%USERNAME%\RStudio-2025.05.1-513\resources\app\bin\quarto\bin\tools
 ```
 
 pandoc distributed with Quarto installed via `choco install quarto`:
@@ -157,7 +157,7 @@ C:\Program Files\RStudio\resources\app\bin\quarto\bin
 Quarto distributed with RStudio Desktop (zip):
 
 ``` batchfile
-C:\Users\%USERNAME%\RStudio-2025.05.0-496\resources\app\bin\quarto\bin
+C:\Users\%USERNAME%\RStudio-2025.05.1-513\resources\app\bin\quarto\bin
 ```
 
 ### Git
