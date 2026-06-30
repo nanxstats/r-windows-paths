@@ -21,4 +21,6 @@ if (matches[[1]][1] != -1) {
   )
 }
 
-writeLines(content, con = path, useBytes = TRUE)
+con <- file(path, open = "wb")
+on.exit(close(con), add = TRUE)
+writeLines(content, con = con, useBytes = TRUE)
