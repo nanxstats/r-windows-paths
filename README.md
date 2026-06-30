@@ -1,5 +1,5 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+<!-- README.md is generated from README.Rmd by running `make`. Please edit README.Rmd. -->
 
 # r-windows-paths
 
@@ -33,7 +33,7 @@ We use these software version examples:
 
 - R 4.6.1
 - Rtools45
-- RStudio Desktop 2026.05.1+225
+- RStudio Desktop 2026.06.0+242
 
 ## Key paths
 
@@ -118,7 +118,7 @@ C:\Program Files\RStudio\resources\app\bin\quarto\bin\tools
 pandoc distributed with RStudio Desktop (zip):
 
 ``` batchfile
-C:\Users\%USERNAME%\RStudio-2026.05.1-225\resources\app\bin\quarto\bin\tools
+C:\Users\%USERNAME%\RStudio-2026.06.0-242\resources\app\bin\quarto\bin\tools
 ```
 
 pandoc distributed with Quarto installed via `choco install quarto`:
@@ -157,7 +157,7 @@ C:\Program Files\RStudio\resources\app\bin\quarto\bin
 Quarto distributed with RStudio Desktop (zip):
 
 ``` batchfile
-C:\Users\%USERNAME%\RStudio-2026.05.1-225\resources\app\bin\quarto\bin
+C:\Users\%USERNAME%\RStudio-2026.06.0-242\resources\app\bin\quarto\bin
 ```
 
 ### Git
