@@ -5,4 +5,4 @@ all:
 	Rscript scripts/postprocess.R README.md
 
 clean:
-	rm -f README.md README.html README.knit.md README.utf8.md
+	$(RM) README.md README.html README.knit.md README.utf8.md
