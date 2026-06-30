@@ -1,7 +1,7 @@
 args <- commandArgs(trailingOnly = TRUE)
 path <- if (length(args) > 0) args[[1]] else "README.md"
 
-content <- paste(readLines(path, warn = FALSE), collapse = "\n")
+content <- paste(readLines(path, warn = FALSE, encoding = "UTF-8"), collapse = "\n")
 
 matches <- gregexpr("(?s)<p[^>]*>.*?</p>", content, perl = TRUE)
 
