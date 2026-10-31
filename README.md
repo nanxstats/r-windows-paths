@@ -31,9 +31,9 @@ command-line access.
 Some of the paths below are specific to the installed software version.
 We use these software version examples:
 
-- R 4.6.1
+- R 4.6.2
 - Rtools45
-- RStudio Desktop 2026.09.0+174
+- RStudio Desktop 2026.10.1+239
 
 ## Key paths
 
@@ -41,15 +41,15 @@ We use these software version examples:
 
 `R.exe` and `Rscript.exe` for running `R CMD build` and `R CMD check`.
 
-R release version 4.6.1:
+R release version 4.6.2:
 
-```
-C:\Program Files\R\R-4.6.1\bin
+```batchfile
+C:\Program Files\R\R-4.6.2\bin
 ```
 
 R-devel:
 
-```
+```batchfile
 C:\Program Files\R\R-devel\bin
 ```
 
@@ -59,14 +59,14 @@ C/C++/Fortran toolchain for building R and R packages from source.
 
 Contains `gcc`, `g++`, `gfortran`:
 
-```
+```batchfile
 C:\rtools45\x86_64-w64-mingw32.static.posix\bin
 ```
 
 Contains Texinfo (`texi2dvi`, `texi2pdf`) required by `R CMD check`, and
 GNU Make (`make`) required for building R from source:
 
-```
+```batchfile
 C:\rtools45\usr\bin
 ```
 
@@ -77,7 +77,7 @@ TeX distribution binaries for LaTeX support.
 Contains `pdflatex` required by `R CMD check` and for building R from
 source.
 
-```
+```batchfile
 C:\Users\%USERNAME%\AppData\Roaming\TinyTeX\bin\windows
 ```
 
@@ -91,13 +91,13 @@ source.
 MiKTeX installed via `choco install miktex` or standalone installer (all
 users):
 
-```
+```batchfile
 C:\Program Files\MiKTeX\miktex\bin\x64
 ```
 
 MiKTeX installed via standalone installer (current user):
 
-```
+```batchfile
 C:\Users\%USERNAME%\AppData\Local\Programs\MiKTeX\miktex\bin\x64
 ```
 
@@ -105,32 +105,32 @@ C:\Users\%USERNAME%\AppData\Local\Programs\MiKTeX\miktex\bin\x64
 
 pandoc installed via `choco install pandoc` or standalone installer:
 
-```
+```batchfile
 C:\Users\%USERNAME%\AppData\Local\Pandoc
 ```
 
 pandoc distributed with RStudio Desktop (installer):
 
-```
+```batchfile
 C:\Program Files\RStudio\resources\app\bin\quarto\bin\tools
 ```
 
 pandoc distributed with RStudio Desktop (zip):
 
-```
-C:\Users\%USERNAME%\RStudio-2026.09.0-174\resources\app\bin\quarto\bin\tools
+```batchfile
+C:\Users\%USERNAME%\RStudio-2026.10.1-239\resources\app\bin\quarto\bin\tools
 ```
 
 pandoc distributed with Quarto installed via `choco install quarto`:
 
-```
+```batchfile
 C:\ProgramData\chocolatey\lib\quarto\tools\bin\tools
 ```
 
 pandoc distributed with Quarto installed via Quarto standalone
 installer:
 
-```
+```batchfile
 C:\Users\%USERNAME%\AppData\Local\Programs\Quarto\bin\tools
 ```
 
@@ -138,26 +138,26 @@ C:\Users\%USERNAME%\AppData\Local\Programs\Quarto\bin\tools
 
 Quarto installed via `choco install quarto`:
 
-```
+```batchfile
 C:\ProgramData\chocolatey\lib\quarto\tools\bin
 ```
 
 Quarto installed via Quarto standalone installer:
 
-```
+```batchfile
 C:\Users\%USERNAME%\AppData\Local\Programs\Quarto\bin
 ```
 
 Quarto distributed with RStudio Desktop (installer):
 
-```
+```batchfile
 C:\Program Files\RStudio\resources\app\bin\quarto\bin
 ```
 
 Quarto distributed with RStudio Desktop (zip):
 
-```
-C:\Users\%USERNAME%\RStudio-2026.09.0-174\resources\app\bin\quarto\bin
+```batchfile
+C:\Users\%USERNAME%\RStudio-2026.10.1-239\resources\app\bin\quarto\bin
 ```
 
 ### Git
@@ -167,7 +167,7 @@ For interacting with Git repositories.
 Git for Windows installed via `choco install git` or standalone
 installer:
 
-```
+```batchfile
 C:\Program Files\Git\cmd
 ```
 
